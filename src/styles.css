@@ -13,14 +13,14 @@
 }
 
 body {
-  font-family: "Roboto";
-  margin: 3% 13% 0 13%;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
   display: grid;
   grid-template-columns: 212px 72px 1fr 1fr 1fr;
   align-items: center;
+  margin: 3% 13% 0 13%;
 }
 
 header a {
@@ -31,16 +31,20 @@ header a {
 #chef {
   background-color: var(--color-call);
   border-radius: 30px;
-  margin-top: 30px;
+  margin: 30px 13% 0 13%;
   display: grid;
   grid-template-columns: 600px 216px 1fr 1fr;
   height: 366px;
 }
 
 #chef-content {
-    padding-top: 20vh;
+    padding-top: 20%;
     margin-left: 5vw;
     max-width: 330px;
+}
+
+#chef #chef-img img {
+    padding-top: 30%
 }
 
 #chef #chef-content h1 {
@@ -53,3 +57,46 @@ header a {
   color: #000000;
   line-height: 28px;
 }
+
+ h2 {
+    font-size: 24px;
+    margin: 5% 13% 0 13%;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 2% 13% 0 13%;
+}
+
+.cards .card img {
+    max-width: 300px;
+    max-height: 140px;
+    border-radius: 15px;
+}
+
+.cards .card .card-title {
+    font-size: 18px;
+    margin-top: 5%;
+    color: #111111;
+}
+
+.cards .card .card-info {
+    margin-top: 0.5%;
+    font-size: 14px;
+    color: #777777;
+}
+
+footer {
+    margin-top: 5%;
+    text-align: center;
+    padding: 2%;
+    background-color: #EEEEEE;
+}
+
+footer p {
+    color: #999999;
+    font-size: 14px;
+}
+
